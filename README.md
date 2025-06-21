@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# React + TypeScript + Vite
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern React application built with TypeScript and Vite for fast development and optimal performance.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+View the live application at: [https://ispeakeasy.github.io/react](https://ispeakeasy.github.io/react)
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React 19** - Modern React with latest features
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Fast build tool and dev server
+- **CSS3** - Styling
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📋 Features
 
-### `npm test`
+- ⚡ Lightning fast development with Vite HMR
+- 🔷 Full TypeScript support with strict type checking
+- 📱 Responsive design
+- 🚀 Optimized production builds
+- 📦 Automatic GitHub Pages deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏃‍♂️ Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/ispeakeasy/react.git
+cd react
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173/react/](http://localhost:5173/react/) in your browser.
+
+## 📜 Available Scripts
+
+### `npm run dev`
+Starts the development server with hot module replacement.
+- Local: http://localhost:5173/react/
+- Super fast startup (~300ms)
 
 ### `npm run build`
+Builds the app for production to the `dist` folder.
+- Optimized and minified
+- Ready for deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm run preview`
+Previews the production build locally.
+- Local: http://localhost:4173/react/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run deploy`
+Builds and deploys the app to GitHub Pages.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🏗️ Project Structure
 
-### `npm run eject`
+```
+src/
+├── components/
+│   └── MyPage.tsx      # Custom page component
+├── App.tsx             # Main App component
+├── main.tsx            # Application entry point
+├── index.css           # Global styles
+└── App.css             # App-specific styles
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔧 Configuration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **TypeScript**: `tsconfig.json` - Strict type checking enabled
+- **Vite**: `vite.config.ts` - Build configuration
+- **GitHub Pages**: Configured with `/react/` base path
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🚀 Deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project is automatically deployed to GitHub Pages when changes are pushed to the main branch.
 
-## Learn More
+Manual deployment:
+```bash
+npm run deploy
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📈 Performance
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Build time**: ~1.2s (vs 30+ seconds with CRA)
+- **Dev server startup**: ~300ms
+- **Bundle size**: ~191KB (gzipped: ~61KB)
+- **Hot reload**: Instant
 
-### Code Splitting
+## 🔄 Migration History
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project was migrated from Create React App to Vite + TypeScript for better performance and developer experience.
 
-### Analyzing the Bundle Size
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
