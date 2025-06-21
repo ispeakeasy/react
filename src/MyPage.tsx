@@ -1,6 +1,6 @@
 import React from 'react';
 
-function MyPage() {
+function MyPage(): JSX.Element {
   return (
     <div className="page-container">
       <header>
